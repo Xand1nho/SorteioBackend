@@ -1,0 +1,24 @@
+{
+  "name": "sorteio",
+  "version": "1.0.0",
+  "description": "Sorteio ",
+  "license": "ISC",
+  "author": "Alexandre",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "prisma": "^7.8.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@prisma/adapter-mariadb": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "dotenv": "^17.4.2",
+    "type": "module"
+  }
+}
