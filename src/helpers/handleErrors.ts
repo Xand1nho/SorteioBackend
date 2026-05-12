@@ -1,6 +1,5 @@
 import { Response } from "express";
 import { Prisma } from "../../generated/prisma/client";
-import prismaErrorCodes from "../../config/prismaErrorCodes.json";
 
 export function handleErrors(e: any, response: Response) {
   console.error(e);
